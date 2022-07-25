@@ -6,6 +6,14 @@ pageextension 50100 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        Message('App published: Hello world');
+        Message('Hello world!');
+    end;
+}
+
+pageextension 50101 VendorListExt extends "Vendor List"
+{
+    trigger OnOpenPage();
+    begin
+        Message('Hello world!');
     end;
 }
