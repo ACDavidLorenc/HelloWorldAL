@@ -2,7 +2,43 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
   <file datatype="xml" source-language="en-US" target-language="en-US" original="HelloWorldAL">
     <body>
-      <group id="body" />
+      <group id="body">
+        <trans-unit id="Table 2328808854 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sample Table</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MyTable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2328808854 - Field 3558390861 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Age</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MyTable - Field Age - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2328808854 - Field 3673837223 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FristName</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MyTable - Field FristName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2328808854 - Field 2017760043 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NO</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MyTable - Field NO - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2328808854 - Field 2111612081 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SecondName</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table MyTable - Field SecondName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2931038265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>MojeStranka</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MyPage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2931038265 - Control 3558390861 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vek osoby</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page MyPage - Control Age - Property ToolTip</note>
+        </trans-unit>
+      </group>
     </body>
   </file>
 </xliff>
