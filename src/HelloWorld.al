@@ -2,7 +2,7 @@
 // Remember that object names and IDs should be unique across all extensions.
 // AL snippets start with t*, like tpageext - give them a try and happy coding!
 
-pageextension 50102 CustomerListExt extends "Customer List"
+pageextension 50100 CustomerListExt extends "Customer List"
 {
     trigger OnOpenPage();
     begin
@@ -101,40 +101,3 @@ page 50121 MyPage
         }
     }
 }
-
-table 50122 Devices
-{
-    DataClassification = ToBeClassified;
-    fields
-    {
-        field(1; Dev; Code[20])
-        {
-            DataClassification = EndUserIdentifiableInformation;
-        }
-
-        field(2; Name; Text[50])
-        {
-            DataClassification = ToBeClassified;
-        }
-
-        field(3; Description; Text[100])
-        {
-            DataClassification = ToBeClassified;
-        }
-
-        field(4; Amount; Code[3])
-        {
-            DataClassification = ToBeClassified;
-        }
-    }
-
-    keys
-    {
-        key(PK; Dev)
-        {
-            Clustered = true;
-        }
-    }
-
-}
-
