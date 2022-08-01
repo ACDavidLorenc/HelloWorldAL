@@ -61,7 +61,7 @@ page 50121 MyPage
     PageType = List;
     SourceTable = MyTable;
     UsageCategory = Lists;
-    Caption = 'Stranka stvorena mnou';
+    Caption = 'Moje Stranka';
     layout
     {
         area(Content)
@@ -109,12 +109,13 @@ table 50122 Devices
     {
         field(1; Dev; Code[20])
         {
-            DataClassification = EndUserIdentifiableInformation;
+            DataClassification = ToBeClassified;
         }
 
         field(2; Name; Text[50])
         {
             DataClassification = ToBeClassified;
+            Description = 'Musí být jedinečné';
         }
 
         field(3; Description; Text[100])
